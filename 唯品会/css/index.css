@@ -1,0 +1,192 @@
+
+/* 顶部搜索登录 */
+.header {
+     width: 100%;
+     height: 80px;
+     background-color: white;
+     position: fixed;
+     z-index: 11;
+}
+.header .headerBox {
+    height: 40px;
+    position: relative;
+}
+/* 登录 */
+.header .login {
+    position: absolute;
+    font-size: 12px;
+    left: 5px;
+    top: 10px;
+}
+/* form */
+.header form {
+    width: 100%;
+    position: absolute;
+    height: 30px;
+    left: 30px;
+    top: 8px;
+    padding-left: 10px;
+    padding-right: 120px;
+ 
+}
+/* 输入框 */
+.header form input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 3px;
+    background-color: #eeeeee;
+}
+/* 最右侧图片 */
+.header .headerBox a {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-image: url(../images/suolvetu.png);
+    background-size: 100% 100%;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.box {
+    padding: 0 15px;
+}
+/* 导航栏 */
+.navbar {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.ul-wrapper {
+    width: 80%;
+    margin-top: 10px;
+    /* overflow-x: scroll; */
+    position: absolute;
+}
+.navbar .ul-wrapper li {
+    height: 20px;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: center;
+    float: left;
+}
+.navbar .ul-wrapper li:hover a {
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+.navbar .active {
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+.navbar .down {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url(../images/down2.png);
+}
+/* 轮播图 */
+.loop {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+    position: relative;
+}
+.swiper-container {
+    width: 100%;
+    height: 150px;
+}
+.swiper-slide {
+    width: 100%;
+    height: 150px;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+/* logo */
+.logo {
+    width: 100%;
+}
+.logo img {
+    width: 100%;
+}
+/* list */   
+.list {
+    width: 100%;
+    background-color: rgb(253, 244, 230);
+}
+.list ul{
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;   
+}
+.list ul p {
+    font-size: 12px;
+}
+.list ul li {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+.list ul li > img {
+    width: 40px;
+}
+/* fontpage */
+.fontPage {
+    width: 100%;
+    background-color:rgb(253, 244, 230);
+}
+.fontPage img {
+    width: 100%;
+}
+/* product */
+.product {
+    width: 95%;
+    margin-left: 8px;
+    font-size: 0;
+    background-color: white;
+}
+.product01 {
+    width: 31%;
+    float: left;
+    font-size: 0;
+}
+.product01 img{
+    width: 100%;
+}
+.product02 {
+    width: 31%;
+    float: left;
+    font-size: 0;
+    margin-left: 4%;
+}
+.product02 img{
+    width: 100%;
+}
+.product03 {
+    width: 29%;
+    float: left;
+    font-size: 0;
+    margin-left: 4%;
+}
+.product03 img{
+    width: 100%;
+}
+/* 购物车 */
+.shopcar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../images/chat-gray.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    position: fixed;
+    left: 20px;
+    bottom: 30px;
+}
